@@ -14,8 +14,6 @@ npm install @adoxyz/tailwindcss-named-colors
 In your `tailwind.config.js` file, load the plugin:
 
 ```
-const plugin = require('tailwindcss/plugin')
-
 module.exports = {
   purge: false,
   theme: {},
