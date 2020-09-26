@@ -11,6 +11,22 @@ background or text color using any of the named colors.
 npm install @adoxyz/tailwindcss-named-colors
 ```
 
+In your `tailwind.config.js` file, load the plugin:
+
+```
+const plugin = require('tailwindcss/plugin')
+const namedColors = require('./named-colors')
+
+module.exports = {
+  purge: false,
+  theme: {},
+  variants: {},
+  plugins: [
+    require('@adoxyz/tailwindcss-named-colors'),
+  ],
+}
+```
+
 ## Use:
 
 Backgrounds:
