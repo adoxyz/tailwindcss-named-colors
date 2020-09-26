@@ -5,7 +5,15 @@ This plugin adds all
 to your TailwindCSS project. Currently the plugin enables you to set the
 background or text color using any of the named colors.
 
-For example:
+## Install
+
+```
+npm install @adoxyz/tailwindcss-named-colors
+```
+
+## Use:
+
+Backgrounds:
 
 ```
 <div class="bg-salmon">
@@ -13,7 +21,7 @@ For example:
 </div>
 ```
 
-Or:
+Text:
 
 ```
 <h1 class="text-tomato">Hello</h1>
