@@ -15,7 +15,6 @@ In your `tailwind.config.js` file, load the plugin:
 
 ```
 const plugin = require('tailwindcss/plugin')
-const namedColors = require('./named-colors')
 
 module.exports = {
   purge: false,
