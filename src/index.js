@@ -150,6 +150,7 @@ const namedColors = [
   "wheat",
   "whitesmoke",
   "yellowgreen",
+  "rebeccapurple"
 ];
 
 namedColors.forEach((color) => {
